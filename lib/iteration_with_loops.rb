@@ -13,7 +13,7 @@ def join_nested_strings(src)
     end
     row_index += 1
   end
-   puts join_nested_strings
+  join_nested_strings
 end
 
  
