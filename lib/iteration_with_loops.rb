@@ -9,7 +9,6 @@ def join_nested_strings(src)
        if src[row_index][element_index].kind_of?(String)
          new_string = src[row_index][element_index]  
               join_nested_strings.push(new_string)
-              join_nested_strings.join
        end
       element_index += 1
     end
