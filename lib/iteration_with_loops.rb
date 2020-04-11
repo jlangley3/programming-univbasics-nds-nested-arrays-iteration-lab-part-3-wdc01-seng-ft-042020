@@ -12,7 +12,7 @@ def join_nested_strings(src)
     end
     row_index += 1
   end
-  puts nested_strings
+   nested_strings
 end
   # src will be an Array of Arrays of Strings and Integers
   # Combine all Strings present in the AoA into a single value and return it
