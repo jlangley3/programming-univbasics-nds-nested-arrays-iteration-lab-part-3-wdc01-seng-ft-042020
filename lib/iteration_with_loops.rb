@@ -10,7 +10,6 @@ def join_nested_strings(src)
          new_string = src[row_index][element_index]  
               join_nested_strings.push(new_string)
               join_nested_strings.join
-              
        end
       element_index += 1
     end
