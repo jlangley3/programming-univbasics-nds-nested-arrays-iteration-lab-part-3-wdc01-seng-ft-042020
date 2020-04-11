@@ -8,8 +8,9 @@ def join_nested_strings(src)
     while element_index < src[row_index].count do
        if src[row_index][element_index].kind_of?(String)
          new_string = src[row_index][element_index]  
-              join_nested_strings.push(new_string)
               join_nested_strings.join
+              join_nested_strings.push(new_string)
+              
        end
       element_index += 1
     end
